@@ -1,3 +1,106 @@
-body{
+/*Color scheme*/
+:root{
+    --border_color: #835A03;
+    --background_color: white;
+
+}
+
+.image{
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url(	https://a1748649.github.io/Homework_ssh/assets/images/digital-marketing-meeting.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.footer {
+   
+    border: 20px black;
+    font-family: serif, 'Times New Roman', Times;
+   
+    
+    color: white;
+    background-color: black;
+    position: default;
+    border-top: 1px solid grey;
+    text-align: center;
+    bottom: 0
+
+  
+
+ }
+ .contact_us{
+    font-family: serif;
+    font-size: 50%;
+    position: centered;
+    text-align: end;
+    color: black;
+
+ }
+
+ header{
+     font-size: 180%;
+     border-top: 3px solid white;
+     border-bottom: 3px solid white;
+     text-align: left;
+ }
+
+ .needs_border{
+  
+    border: 1px solid var(--border_color);
+    border-radius: 15px;
+ }
+
+ 
+
+
+ .color_f_h{
+     color: white;
+     display: inline;
+ }
+
+.body{
+    font-size: 18px;
+    font-family: serif;
+    line-height: 1.5;
+    background-color: var(--background_color);
+ 
+  
+    position: centred;
+    text-align: center;
+
+    
+}   
+
+.italic{
+    margin-top: 50%;
+    margin-bottom: 50%;
+    line-height: 3;
+  
+}
+.image{
+    width: "100%";
+    display: none;
+}
+
+h1{
+    display: inline;
     color: orange;
 }
+
+h2{
+    display: inline;
+    color: black;
+}
+
+h3{
+    display: inline;
+    color: white;
+}
+
+h4{
+    display: block
+}
+
+
